@@ -1,19 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Day1Screen(),
-    );
-  }
-}
-
 class Day1Screen extends StatefulWidget {
   @override
   State<Day1Screen> createState() => _Day1Screen();
@@ -44,7 +30,7 @@ class _Day1Screen extends State<Day1Screen> {
               decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius:
-                      BorderRadius.vertical(bottom: Radius.circular(20))),
+                  BorderRadius.vertical(bottom: Radius.circular(20))),
               padding: EdgeInsets.all(20.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -82,7 +68,7 @@ class _Day1Screen extends State<Day1Screen> {
                         ),
                         hintText: "search you're looking for ",
                         hintStyle:
-                            TextStyle(color: Colors.grey[700], fontSize: 15),
+                        TextStyle(color: Colors.grey[700], fontSize: 15),
                       ),
                     ),
                   ),
