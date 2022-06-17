@@ -1,16 +1,11 @@
 # design_ui
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# flutter UI From day 1 to day 100
 
-A few resources to get you started if this is your first Flutter project:
+# day 1
+<img src="assets/screenshot/Day0/0.png" height="500em" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# day 2
+<img src="[https://user-images.githubusercontent.com/60111189/174339934-19aad38d-1913-47eb-bbcd-8dd921625bfa.png]" height="500em" />&nbsp;<img src="https://user-images.githubusercontent.com/60111189/174339940-a83b1888-0137-4599-aba2-31e8bdff1cad.png" height="500em" />
