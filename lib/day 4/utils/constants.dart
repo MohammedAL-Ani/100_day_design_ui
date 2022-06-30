@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 const COLOR_BLACK = Color.fromRGBO(48, 47, 48, 1.0);
 const COLOR_GREY = Color.fromRGBO(141, 141, 141, 1.0);
+
 const COLOR_WHITE = Colors.white;
 const COLOR_DARK_BLUE = Color.fromRGBO(20, 25, 45, 1.0);
 
@@ -13,7 +14,7 @@ const TextTheme TEXT_THEME_DEFAULT = TextTheme(
     headline3: TextStyle(
         color: COLOR_BLACK, fontWeight: FontWeight.w700, fontSize: 20),
     headline4: TextStyle(
-        color: COLOR_BLACK, fontWeight: FontWeight.w700, fontSize: 16),
+        color: Colors.black, fontWeight: FontWeight.w700, fontSize: 16),
     headline5: TextStyle(
         color: COLOR_BLACK, fontWeight: FontWeight.w700, fontSize: 14),
     headline6: TextStyle(
@@ -41,7 +42,7 @@ const TextTheme TEXT_THEME_SMALL = TextTheme(
     headline3: TextStyle(
         color: COLOR_BLACK, fontWeight: FontWeight.w700, fontSize: 18),
     headline4: TextStyle(
-        color: COLOR_BLACK, fontWeight: FontWeight.w700, fontSize: 14),
+        color: Colors.black, fontWeight: FontWeight.w700, fontSize: 14),
     headline5: TextStyle(
         color: COLOR_BLACK, fontWeight: FontWeight.w700, fontSize: 12),
     headline6: TextStyle(
