@@ -1,5 +1,5 @@
 
-import 'package:design_ui/day%204/utils/constants.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -44,6 +44,7 @@ class DetailsScreen extends StatelessWidget {
 
           ],
         ),
+
         body: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(20.0),
@@ -169,6 +170,7 @@ class CardNFTs extends StatelessWidget {
           ),
         )
       ],
+
     );
   }
 }
