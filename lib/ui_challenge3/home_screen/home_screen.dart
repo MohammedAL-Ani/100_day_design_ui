@@ -63,13 +63,14 @@ class HomeScreen extends StatelessWidget {
                               SvgPicture.asset('assets/svg/notification.svg'),
                               Stack(
                                   alignment: AlignmentDirectional.center,
-                                  children:const [
+                                  children: [
                                     CircleAvatar(
                                       radius: 8.0,
                                       backgroundColor:  ColorConstants.redGradColor2,
                                     ),
-                                    Text("5")
-                                  ]
+                                    Text("5",style:getSemiBoldStyle(color: Colors.white,fontSize: 12.0)
+
+                                    ), ]
 
 
                               ),

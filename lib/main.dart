@@ -8,6 +8,7 @@ import 'package:design_ui/ui_challenge3/home_screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'day 4/Screens/day 4.dart';
+import 'day 5/screens/home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DetailsScreen(),
+      home: HomePageDay5(),
     );
   }
 }
