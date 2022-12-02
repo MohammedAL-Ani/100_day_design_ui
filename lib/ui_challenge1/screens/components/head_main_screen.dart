@@ -6,10 +6,22 @@ import 'package:flutter_svg/svg.dart';
 
 import '../../constants/constant.dart';
 
-class HeadMainScreen extends StatelessWidget {
+class HeadMainScreen extends StatefulWidget {
   const HeadMainScreen({
     Key? key,
   }) : super(key: key);
+
+  @override
+  State<HeadMainScreen> createState() => _HeadMainScreenState();
+}
+
+class _HeadMainScreenState extends State<HeadMainScreen> {
+
+  String rateText = "D(17+)";
+  bool _isBoolean = false;
+  DateTime dateText = DateTime(2022,11,19,17, 30);
+  DateTime selectedDate2=DateTime.now();
+
 
   @override
   Widget build(BuildContext context) {
@@ -53,7 +65,7 @@ class HeadMainScreen extends StatelessWidget {
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage('assets/images/1.png'),
+                      image: AssetImage('assets/images/emma-2.jpeg'),
                     ),
                   ),
                 ),
@@ -152,7 +164,7 @@ class HeadMainScreen extends StatelessWidget {
                   decoration: BoxDecoration(
                       image: DecorationImage(
                         fit: BoxFit.cover,
-                        image: AssetImage('assets/images/image2.png'),
+                        image: AssetImage('assets/images/emma.jpeg'),
                       ),
                       borderRadius: BorderRadius.all(
                         Radius.circular(10.0),
@@ -188,7 +200,7 @@ class HeadMainScreen extends StatelessWidget {
                         height: 20,
                       ),
                       Text(
-                        "Rating   : D(17+)",
+                        "Rating   : $rateText",
                         style: TextStyle(color: Colors.white, fontSize: 15.0),
                       ),
                     ],
@@ -251,7 +263,8 @@ class HeadMainScreen extends StatelessWidget {
               DateTime.now(),
               height: 80,
               width: 80,
-              initialSelectedDate: DateTime.now(),
+              
+              initialSelectedDate: selectedDate2,
               selectedTextColor: Colors.white,
               selectionColor: mainColor,
               monthTextStyle:
@@ -260,7 +273,16 @@ class HeadMainScreen extends StatelessWidget {
                   TextStyle(color: Color.fromRGBO(255, 255, 255, 0.6)),
               dateTextStyle:
                   TextStyle(color: Color.fromRGBO(255, 255, 255, 0.6)),
+              onDateChange: (date) {
+                // New date selected
+                setState(() {
+
+                });
+              },
             ),
+             Visibility(
+               visible: _isBoolean,
+                 child: Center(child: CircularProgressIndicator())),
             SizedBox(
               height: 20,
             ),
