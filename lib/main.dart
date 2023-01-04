@@ -1,3 +1,4 @@
+import 'package:design_ui/animation_screen/home_screen.dart';
 import 'package:design_ui/day%201/day%201.dart';
 import 'package:design_ui/day%202/day%202.dart';
 import 'package:design_ui/day%203/day%203.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HeadMainScreen(),
+      home: DarkScreen(),
     );
   }
 }
