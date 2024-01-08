@@ -107,8 +107,7 @@ class _HeadMainScreenState extends State<HeadMainScreen> {
                                 'Horror',
                               ),
                               style: TextButton.styleFrom(
-                                  shape: StadiumBorder(),
-                                  primary: secondWhiteColor,
+                                  foregroundColor: secondWhiteColor, shape: StadiumBorder(),
                                   backgroundColor: boxColor1,
                                   textStyle: const TextStyle(
                                       fontSize: 15,
@@ -120,8 +119,7 @@ class _HeadMainScreenState extends State<HeadMainScreen> {
                                 'Drama',
                               ),
                               style: TextButton.styleFrom(
-                                  shape: StadiumBorder(),
-                                  primary: secondWhiteColor,
+                                  foregroundColor: secondWhiteColor, shape: StadiumBorder(),
                                   backgroundColor: boxColor1,
                                   textStyle: const TextStyle(
                                       fontSize: 15,
@@ -221,8 +219,7 @@ class _HeadMainScreenState extends State<HeadMainScreen> {
                       onPressed: () {},
                       child: Text("Schedule"),
                       style: TextButton.styleFrom(
-                          primary: firstWhiteColor,
-                          textStyle: TextStyle(
+                          foregroundColor: firstWhiteColor, textStyle: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
                             fontSize: 20,
@@ -233,8 +230,7 @@ class _HeadMainScreenState extends State<HeadMainScreen> {
                 ),
                 TextButton(
                   style: TextButton.styleFrom(
-                      primary: secondWhiteColor,
-                      textStyle: TextStyle(
+                      foregroundColor: secondWhiteColor, textStyle: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
                       ),
